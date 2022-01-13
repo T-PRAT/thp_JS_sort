@@ -14,6 +14,7 @@ function getArray() {
 function bubbleSort(arr) {
 	let c = 0;
 	let tmp;
+
 	for(let j = 0; j < arr.length; j++) {
 		for(let i = 0; i < arr.length; i++) {
 			c++;
